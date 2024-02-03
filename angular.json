@@ -93,7 +93,7 @@
     "@mantra/mantra-ui": {
       "projectType": "library",
       "root": "projects/mantra/mantra-ui",
-      "sourceRoot": "projects/mantra/mantra-ui/src",
+      "sourceRoot": "projects/mantra/mantra-ui",
       "prefix": "mantra",
       "architect": {
         "build": {
