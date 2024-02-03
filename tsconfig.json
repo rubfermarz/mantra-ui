@@ -9,7 +9,8 @@
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
     "paths": {
-      "mantra-ui": ["./dist/mantra-ui"],
+      "@mantra/mantra-ui/*": ["./projects/mantra/mantra-ui/*"],
+      "@mantra/mantra-ui": ["./projects/mantra/mantra-ui"],
     },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
