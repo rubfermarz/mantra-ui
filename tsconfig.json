@@ -8,6 +8,9 @@
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,
+    "paths": {
+      "mantra-ui": ["./dist/mantra-ui"],
+    },
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "esModuleInterop": true,

@@ -14,10 +14,10 @@ describe(`AppComponent`, () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'mantra-ui' title`, () => {
+  it(`should have the 'mantra' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual(`mantra-ui`);
+    expect(app.title).toEqual(`mantra`);
   });
 
   it(`should render title`, () => {
@@ -25,7 +25,7 @@ describe(`AppComponent`, () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector(`h1`)?.textContent).toContain(
-      `Hello, mantra-ui`,
+      `Hello, mantra`,
     );
   });
 });
