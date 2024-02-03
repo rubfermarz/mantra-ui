@@ -1,1 +1,1 @@
-export * from '@mantra/mantra-ui/components/button/src/mantra-button.component';
+export * from './src/mantra-button.component';

@@ -3,5 +3,6 @@
   "dest": "../../../dist/mantra/mantra-ui",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": ["./scss/_animations.scss"]
 }

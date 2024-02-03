@@ -19,4 +19,10 @@ describe('ButtonComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should have the default color', () => {
+    expect(component.color).toEqual('primary');
+  });
+
+  it('');
 });
