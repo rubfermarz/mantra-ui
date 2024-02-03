@@ -1,17 +1,17 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MantraUiComponent } from './mantra-ui.component';
+import { MantraButton } from './mantra-button.component';
 
-describe('MantraUiComponent', () => {
-  let component: MantraUiComponent;
-  let fixture: ComponentFixture<MantraUiComponent>;
+describe('ButtonComponent', () => {
+  let component: MantraButton;
+  let fixture: ComponentFixture<MantraButton>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [MantraUiComponent],
+      imports: [MantraButton],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(MantraUiComponent);
+    fixture = TestBed.createComponent(MantraButton);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
