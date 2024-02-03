@@ -2,7 +2,7 @@ import { TestBed } from '@angular/core/testing';
 
 import { MantraUiService } from './mantra-ui.service';
 
-describe(`MantraUiService`, () => {
+describe('MantraUiService', () => {
   let service: MantraUiService;
 
   beforeEach(() => {
@@ -10,7 +10,7 @@ describe(`MantraUiService`, () => {
     service = TestBed.inject(MantraUiService);
   });
 
-  it(`should be created`, () => {
+  it('should be created', () => {
     expect(service).toBeTruthy();
   });
 });

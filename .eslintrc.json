@@ -13,6 +13,6 @@
     "sourceType": "module"
   },
   "rules": {
-    "quotes": ["error", "backtick"]
+    "quotes": ["error", "single"]
   }
 }

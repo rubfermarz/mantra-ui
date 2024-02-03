@@ -9,8 +9,8 @@
     "test": "ng test",
     "test:headless": "ng test --browsers ChromeHeadless --watch=false --code-coverage --no-progress",
     "serve:ssr:mantra": "node dist/mantra/server/server.mjs",
-    "lint": "eslint . --ext .ts,.html,.js --max-warnings 0 && prettier --check .",
-    "lint:fix": "eslint . --ext .ts,.html,.js --max-warnings 0 --fix",
+    "lint": "eslint . --ext .ts,.html --max-warnings 0 && prettier --check .",
+    "lint:fix": "eslint . --ext .ts,.html --max-warnings 0 --fix",
     "format": "prettier --write .",
     "prepare": "husky install"
   },
