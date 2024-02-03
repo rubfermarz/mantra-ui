@@ -1,5 +1,5 @@
 {
-  "name": "mantra-ui",
+  "name": "mantra",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,7 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "test:headless": "ng test --browsers ChromeHeadless --watch=false --code-coverage --no-progress",
-    "serve:ssr:mantra-ui": "node dist/mantra-ui/server/server.mjs",
+    "serve:ssr:mantra": "node dist/mantra/server/server.mjs",
     "lint": "eslint . --ext .ts,.html,.js --max-warnings 0 && prettier --check .",
     "lint:fix": "eslint . --ext .ts,.html,.js --max-warnings 0 --fix",
     "format": "prettier --write .",
@@ -56,6 +56,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "lint-staged": "^15.2.1",
+    "ng-packagr": "^17.1.0",
     "prettier": "^3.2.4",
     "typescript": "~5.3.3"
   }
