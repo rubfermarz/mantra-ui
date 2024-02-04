@@ -1,6 +1,9 @@
 {
-  "*.ts": ["prettier --write", "eslint . --ext .ts --max-warnings 0 --fix"],
-  "*.html": ["prettier --write", "eslint . --ext .html --max-warnings 0 --fix"],
-  "*.scss": "prettier --write",
-  "*.json": "prettier --write"
+    "*.ts": ["prettier --write", "eslint . --ext .ts --max-warnings 0 --fix"],
+    "*.html": [
+        "prettier --write",
+        "eslint . --ext .html --max-warnings 0 --fix"
+    ],
+    "*.scss": "prettier --write",
+    "*.json": "prettier --write"
 }
