@@ -1,3 +1,5 @@
+/** @format */
+
 import { RippleDirective } from './ripple.directive';
 import { DebugElement } from '@angular/core';
 
