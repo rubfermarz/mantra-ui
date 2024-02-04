@@ -1,46 +1,46 @@
-@use "../../../scss/palette";
+@use '../../../scss/palette';
 
 button {
-  border: none;
-  color: white;
-  padding: 10px 23px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 2px;
-  position: relative;
-  overflow: hidden;
+    border: none;
+    color: white;
+    padding: 10px 23px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
 }
 
-button[color="primary"] {
-  background-color: palette.getColorPalette(palette.$primary, 500);
-  color: white;
+button[color='primary'] {
+    background-color: palette.getColorPalette(palette.$primary, 500);
+    color: white;
 }
 
-button[color="success"] {
-  background-color: palette.getColorPalette(palette.$success, 500);
-  color: white;
+button[color='success'] {
+    background-color: palette.getColorPalette(palette.$success, 500);
+    color: white;
 }
 
-button[color="secondary"] {
-  background-color: palette.getColorPalette(palette.$secondary, 500);
-  color: white;
+button[color='secondary'] {
+    background-color: palette.getColorPalette(palette.$secondary, 500);
+    color: white;
 }
 
-button[color="danger"] {
-  background-color: palette.getColorPalette(palette.$danger, 400);
-  color: white;
+button[color='danger'] {
+    background-color: palette.getColorPalette(palette.$danger, 400);
+    color: white;
 }
 
-button[color="tertiary"] {
-  background-color: palette.getColorPalette(palette.$tertiary, 800);
-  color: white;
+button[color='tertiary'] {
+    background-color: palette.getColorPalette(palette.$tertiary, 800);
+    color: white;
 }
 
-button[color="warning"] {
-  background-color: palette.getColorPalette(palette.$warning, 200);
-  color: white;
+button[color='warning'] {
+    background-color: palette.getColorPalette(palette.$warning, 200);
+    color: white;
 }
