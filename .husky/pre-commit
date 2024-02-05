@@ -1,6 +1,5 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-pnpm run test:headless
-pnpm run test:headless:mantra-ui
+pnpm run test
 npx lint-staged

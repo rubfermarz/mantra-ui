@@ -25,6 +25,4 @@ describe('ButtonComponent', () => {
     it('should have the default color', () => {
         expect(component.color).toEqual('primary');
     });
-
-    it('');
 });
