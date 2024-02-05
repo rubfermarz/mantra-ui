@@ -1,16 +1,15 @@
-import { Directive, ElementRef, HostListener, OnInit } from '@angular/core';
+/** @format */
+
+import { Directive, ElementRef, HostListener } from '@angular/core';
 
 @Directive({
-    selector: '[mantraRipple]',
+    // eslint-disable-next-line @angular-eslint/directive-selector
+    selector: '[mantraRipple], [mantra-button]',
     standalone: true,
 })
-export class RippleDirective implements OnInit {
+export class RippleDirective {
     constructor(protected elementRef: ElementRef) {
         this.elementRef = elementRef;
-    }
-
-    ngOnInit() {
-        console.log('RippleDirective');
     }
 
     @HostListener('click', ['$event']) onClick($event: MouseEvent) {

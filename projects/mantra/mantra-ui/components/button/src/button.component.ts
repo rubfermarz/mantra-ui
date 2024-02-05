@@ -1,15 +1,18 @@
+/** @format */
+
 import { Component, Input, ViewEncapsulation } from '@angular/core';
-import { MantraButtonBase } from './mantra-button-base';
+import { ButtonBase } from './button-base';
 
 @Component({
+    // eslint-disable-next-line @angular-eslint/component-selector
     selector: 'button[mantra-button]',
     standalone: true,
     imports: [],
-    templateUrl: './mantra-button.component.html',
-    styleUrl: './mantra-button.component.scss',
+    templateUrl: './button.component.html',
+    styleUrl: './button.component.scss',
     encapsulation: ViewEncapsulation.None,
 })
-export class MantraButton extends MantraButtonBase {
+export class MantraButtonComponent extends ButtonBase {
     @Input()
     color:
         | 'primary'

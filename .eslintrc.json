@@ -1,6 +1,5 @@
 {
     "root": true,
-    "ignorePatterns": ["projects/**/*"],
     "overrides": [
         {
             "files": ["*.ts"],
@@ -16,7 +15,7 @@
                     "error",
                     {
                         "type": "attribute",
-                        "prefix": "app",
+                        "prefix": ["mantra", "app"],
                         "style": "camelCase"
                     }
                 ],
@@ -24,10 +23,11 @@
                     "error",
                     {
                         "type": "element",
-                        "prefix": "app",
+                        "prefix": ["mantra", "app"],
                         "style": "kebab-case"
                     }
-                ]
+                ],
+                "no-console": "error"
             }
         },
         {

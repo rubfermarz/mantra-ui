@@ -1,3 +1,5 @@
+/** @format */
+
 import { APP_BASE_HREF } from '@angular/common';
 import { CommonEngine } from '@angular/ssr';
 import express from 'express';
@@ -52,6 +54,7 @@ function run(): void {
     // Start up the Node server
     const server = app();
     server.listen(port, () => {
+        // eslint-disable-next-line no-console
         console.log(
             `Node Express server listening on http://localhost:${port}`
         );

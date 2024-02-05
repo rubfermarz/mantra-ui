@@ -1,6 +1,30 @@
-<button mantra-button color="primary" mantraRipple>Button</button>
+<!-- @format -->
+
+<h1>Buttons</h1>
+
+<button mantra-button color="primary">Button</button>
 <button mantra-button color="secondary">Button</button>
 <button mantra-button color="tertiary">Button</button>
 <button mantra-button color="success">Button</button>
-<button mantra-button color="warning" mantraRipple>Button</button>
+<button mantra-button color="warning">Button</button>
 <button mantra-button color="danger">Button</button>
+
+<h1>Cards</h1>
+
+<mantra-card>
+    <mantra-header-card inset>
+        <h1>header</h1>
+    </mantra-header-card>
+    <mantra-content-card>
+        <p>This is the content</p>
+        <img
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5f/Original_Doge_meme.jpg/220px-Original_Doge_meme.jpg"
+            alt="Doge meme image" />
+    </mantra-content-card>
+    <mantra-footer-card inset>
+        <div>
+            <button mantra-button color="primary">Do it</button>
+            <button mantra-button color="danger">Cancel</button>
+        </div>
+    </mantra-footer-card>
+</mantra-card>

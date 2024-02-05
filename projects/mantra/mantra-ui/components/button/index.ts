@@ -1,1 +1,3 @@
-export * from './src/mantra-button.component';
+/** @format */
+
+export * from './src/button.component';

@@ -1,0 +1,16 @@
+/** @format */
+
+.mantra-header-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+hr {
+    display: block;
+    margin: 0;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.12);
+}
