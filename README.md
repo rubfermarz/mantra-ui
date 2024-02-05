@@ -1,29 +1,37 @@
-<!-- @format -->
+# 🕉️ MantraUi WIP 🚧
 
-# MantraUi
+A component library for Angular17+. The main idea is to provide a set of
+components that can be used in any Angular project. The components are designed
+to be simple, easy to use, and customizable. The project comes with a base app as a
+catalog of the components and apart the library itself. In the future, the library will be
+published to npm.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+# ⚡️ Technologies
+  
+- Angular 17
+- PNPM
+- Typescript
+- Husky
+- Eslint
+- Lint-staged
+- Prettier
 
-## Development server
+# 🚀 Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. Clone the repository to your local machine.
+2. Run `pnpm install` or  to install the dependencies. (Works too with npm but the default package manager in the project is pnpm)
+3. Run `pnpm start` to start the development server.
+4. Open your browser and go to `http://localhost:4200/` to see the app running.
 
-## Code scaffolding
+# 📋 Things to do
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- [x] Create a base app to serve as a catalog for the components.
+- [x] Create a base component library.
+- [x] Create a basic button component.
+- [ ] Create a basic card component.
+- [ ] Create a basic input component.
+- [ ] Improve de actual components adding functionalities.
 
-## Build
+# 📝 License
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
