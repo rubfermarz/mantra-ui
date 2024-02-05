@@ -1,6 +1,6 @@
 /** @format */
 
-import { Component } from '@angular/core';
+import { Component, Input, booleanAttribute } from '@angular/core';
 
 @Component({
     selector: 'mantra-footer-card',
@@ -9,4 +9,6 @@ import { Component } from '@angular/core';
     templateUrl: './footer-card.component.html',
     styleUrl: './footer-card.component.scss',
 })
-export class FooterCardComponent {}
+export class FooterCardComponent {
+    @Input({ transform: booleanAttribute }) inset?: boolean;
+}
