@@ -1,0 +1,33 @@
+/** @format */
+
+@use '../../../scss/palette';
+
+.mantra-input {
+    flex: auto;
+    min-width: 0;
+    width: 180px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+input {
+    border: 1px solid palette.getColorPalette(palette.$primary, 300);
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+    color: palette.getColorPalette(palette.$secondary, 500);
+    transition: border-color 0.2s ease-in-out;
+
+    &:focus {
+        outline: none;
+        border-color: palette.getColorPalette(palette.$primary, 500);
+    }
+
+    &[size='full'] {
+        width: 100%;
+    }
+
+    &[size='narrow'] {
+        width: auto;
+    }
+}

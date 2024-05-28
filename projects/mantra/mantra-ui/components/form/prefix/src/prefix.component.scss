@@ -1,0 +1,11 @@
+/** @format */
+
+@use '../../../../scss/palette';
+
+:host {
+    align-self: center;
+    line-height: 0;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
+}

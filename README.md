@@ -28,7 +28,7 @@ published to npm.
 - [x] Create a base app to serve as a catalog for the components.
 - [x] Create a base component library.
 - [x] Create a basic button component.
-- [ ] Create a basic card component.
+- [x] Create a basic card component.
 - [ ] Create a basic input component.
 - [ ] Improve de actual components adding functionalities.
 
